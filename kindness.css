@@ -1,0 +1,320 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Gloock', serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+     
+}
+.container{
+    padding-left:70px;
+    padding-right: 30px;
+    margin-left: 20px;
+    margin-right: -60px;
+   
+}
+/*Start nav*/
+.haeder{
+    background-color: rgba(0, 0, 0, 0.789);
+    
+}
+.haeder ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(200px, 1fr));
+    grid-gap:10px ;
+    list-style:none;
+     
+}
+.haeder .df{
+    list-style:none;
+    
+   
+   
+}
+.haeder ul img{
+    width: 100px;
+    border-radius: 40px;
+    margin-top: -30px;
+    
+    
+}
+
+.haeder ul li{
+    padding-left: 15px;
+    margin-top:30px;
+    position: relative;
+  
+}
+.haeder ul li::before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 38px;
+    background-color: rgb(255, 255, 255);
+    top:10;
+    left: -5px;
+}
+.haeder ul li a{
+    color: antiquewhite;
+    
+}
+.haeder ul li p{
+    color: rgb(196, 181, 181);
+}
+
+.haeder  .uau{
+    color: rgba(31, 184, 226, 0.764);;
+}
+/*End nav*/
+/*Start landing*/
+.landing{
+    background-image: url(images/pexels-julia-volk-7293100.jpg) ;
+    background-size: cover;
+    margin-top: -16px;
+    width: 100%;
+    height: 50em;
+   
+}
+
+.landing .overlay{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 50em;
+    background-color: rgba(0, 0, 0, 0.051);
+}
+.landing .text{
+    font-family: 'Gloock', serif;
+    padding-left: 75%;
+    padding-top: 10em;
+     
+}
+.landing .text h2{
+    color: white;
+   
+}
+.landing .text p{
+    line-height: 40px;
+    color: black;
+    font-size: 1em;
+}
+.landing .text h6{
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+.landing .text .but{
+    padding: 15px;
+    color: white ;
+    background-color:  rgba(31, 184, 226, 0.764);
+    border: 0;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+/*End landing*/
+/*Start cards*/
+
+.cards{
+    margin-top:20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(280px, 1fr));
+    grid-gap:10px ;
+    margin-top: -2px;
+    background-color: black;
+    border-bottom:1px solid rgb(251, 248, 248);
+    
+    
+}
+.cards .card{
+    background-color: black;
+    margin: 2px;
+    font-family: 'Gloock', serif;
+    letter-spacing: 2px;
+   
+}
+.cards .card .textca{
+    margin-top: 20px;
+}
+.cards .card h6{
+    color: rgba(31, 184, 226, 0.764); 
+    
+    
+}
+.cards .card .card1{
+    margin-left: 1em;
+}
+.cards .card .but{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(30, 25, 25);
+    box-shadow: 0 5px 200px rgba(1 1 1/ 15%);
+    margin-left: 1em;
+
+}
+.cards .card .card4{
+    margin-left: -1em;
+   
+}
+.cards .card .textca p{
+   color: rgb(141, 137, 137);
+}
+.cards .card .textca h2{
+    color:  rgb(141, 137, 137);
+}
+/*End cards*/
+/*Start 2card*/
+.Twocard{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px, 1fr));
+    grid-gap:11em ;
+    padding-left: 2em;
+    padding-top: 2em;
+    font-family: 'Gloock', serif;
+    line-height: 2em;
+
+}
+.Twocard h2{
+    color: white;
+}
+.Twocard .onecard h5{
+    color: rgb(180, 174, 174);
+    margin-bottom: 2em;
+    line-height: 2em;
+}
+.Twocard .onecard .but{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(30, 25, 25);
+    box-shadow: 0 5px 200px rgba(1 1 1/ 15%);
+    margin-left: 1em;
+}
+.Twocard .onecard img{
+    width: 60%;
+    margin-left: 15em;
+    margin-top: -20em;
+    border-radius: 2em;
+}
+.Twocard .twocard2 h6{
+    color: rgba(31, 184, 226, 0.764) ;
+    line-height: 1.50em;
+}
+.Twocard .twocard2 .but{
+    padding: 15px;
+    color: white ;
+    background-color:  rgba(31, 184, 226, 0.764);
+    border: 0;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+.Twocard .twocard2 img{
+    width: 20%;
+    margin-left: 20em;
+    margin-top: -20em;
+    border-radius: 2em;
+    
+}
+.Twocard .twocard2 p{
+    color: rgb(141, 137, 137);
+}
+
+/*End 2card*/
+         
+/*Start Footer*/
+.footer{
+    background-color: rgba(0, 0, 0, 0.789);
+    font-family: 'Gloock', serif;
+    letter-spacing: 2px;
+}
+.footer ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(270px, 1fr));
+    grid-gap:10px ;
+    list-style:none;
+     
+}
+.footer .df{
+    list-style:none;
+  
+    
+   
+   
+}
+.footer ul img{
+    width: 100px;
+    border-radius: 40px;
+    margin-top: -30px;
+   
+    
+}
+
+.footer ul li{
+    padding-left: 15px;
+    margin-top:30px;
+    position: relative;
+  
+}
+.footer ul li::before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 38px;
+    background-color: rgb(255, 255, 255);
+    top:10;
+    left: -5px;
+}
+.footer ul li a{
+    color: antiquewhite;
+    
+}
+
+.footer ul li p{
+    color: gray;
+}
+
+.footer ul li .fa-facebook-f{
+    color: rgb(54, 54, 198);
+    width: 10%;
+}
+.footer ul li .fa-twitter{
+    color: rgb(27, 171, 244);
+    width: 10%;
+}
+.footer ul li .fa-google{
+    color: red;
+    width: 10%;
+}
+.footer .by{
+    background-color: rgba(67, 64, 64, 0.789);
+    color: white;
+    text-align:center ;
+    padding: 30px;
+}
+.footer .by span {
+   color:  rgba(31, 184, 226, 0.764);
+}
+.footer .by i{
+    color: rgba(31, 184, 226, 0.764) ;
+}
+.footer .by img{
+    width: 60px;
+    border-radius: 100%;
+}
+/*End Footer*/
